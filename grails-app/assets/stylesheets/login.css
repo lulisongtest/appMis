@@ -1,0 +1,189 @@
+﻿
+img {vertical-align:text-top}
+
+body {
+    background-image: url(/salaryMis/assets/salaryMis/background-image.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 65%;
+}
+
+#inner {
+    position:absolute;
+    margin:1px auto;
+    filter:alpha(opacity=50);
+    top:270px;
+    left:570px;
+    width: 30%;
+    height: 30%;
+}
+
+#title_image{
+    position:absolute;
+    margin:0px auto;
+    top:140px;
+    height: 54px;
+    float:left;
+}
+#title_image1{
+    position:absolute;
+    margin:0px auto;
+    top:130px;
+    left:55px;
+    height: 54px;
+    float:left;
+}
+#title_image2{
+    position:absolute;
+    margin:0px auto;
+    top:130px;
+    left:5px;
+    height: 54px;
+    float:left;
+}
+#title_image3{
+    position:absolute;
+    margin:0px auto;
+    top:230px;
+    left:400px;
+    height: 54px;
+    float:left;
+}
+#loginForm{
+    position:relative;
+    margin-left: 120px;
+    top:80px;
+    height: 23px;
+    width: 250px;
+}
+.user_message{
+    position:relative;
+    margin-left: -70px;
+    top:-40px;
+    height: 40px;
+    line-height: 35px;
+    font-size: 18px;
+    width: 280px;
+    float:left;
+}
+.checkCode{
+    position:relative;
+    margin-left: 160px;
+    top:-20px;
+    height: 40px;
+    line-height: 35px;
+    font-size: 18px;
+    width: 280px;
+    float:left;
+}
+.resetPassword{
+    position:relative;
+    margin-left: 0px;
+    top:3px;
+    height: 40px;
+    line-height: 35px;
+    font-size: 18px;
+    width: 380px;
+    float:left;
+}
+.login_message{
+    position:relative;
+    top:30px;
+    height: 23px;
+    width: 550px;
+    color: #ff0523;
+}
+
+
+
+#submit{
+    border: 0;
+    background: url("/salaryMis/assets/salaryMis/login_confirm.png") no-repeat;
+    width: 80px;
+    height: 60px;
+    float:left;
+    cursor:pointer;
+}
+#reset{
+    border: 0;
+    background: url("/salaryMis/assets/salaryMis/login_reset.png") no-repeat;
+    width: 80px;
+    height: 60px;
+    float:left;
+    cursor:pointer;
+}
+
+#regist1{
+    margin-top: 30px;
+    float:left;
+}
+#regist{
+    margin-top: 10px;
+    float:left;
+}
+
+a{
+    color: #000000;
+}
+a:hover{
+    color: #7d3014;
+}
+
+
+.add {
+    background-image: url(../images/icons/add.gif) !important;
+}
+
+.delete {
+    background-image: url(../images/icons/delete.gif) !important;
+}
+
+.up {
+    background-image: url(../images/icons/up.gif) !important;
+}
+
+.trash {
+    background-image: url(../images/icons/trash.gif) !important;
+}
+
+.cancel {
+    background-image: url(../images/icons/cancel.gif) !important;
+}
+
+
+.file input {
+                                font-size: 13px;
+                                right: 0;
+                                top: 0;
+                                opacity: 0;
+                                visibility:hidden;
+                            }
+
+.file label{
+    position: relative;
+    display: inline-block;
+    width:180px;
+    border: 1px solid #99D3F5;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    height: 40px;
+    bottom:33px;
+    left:10px;
+    padding-top:12px;
+}
+
+.file .btn{
+    position: relative;
+    display: inline-block;
+    border:none;
+    height:40px;
+    background-color:#5FA2DD;
+    color:white;
+    width:80px;
+    bottom:49px;
+    margin-left: 30px;
+}
+

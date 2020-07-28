@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--suppress SpringFacetInspection -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="processEngineConfiguration" class="org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration">
+    <!-- 生成流程图的字体
+    <property name="activityFontName" value="宋体"></property>
+    <property name="labelFontName" value="宋体"></property>-->
+        <!--  <property name="jdbcUrl" value="jdbc:mysql://192.168.17.30:3306/appmis?characterEncoding=utf-8" />-->
+         <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/appmis?characterEncoding=utf-8" />
+
+
+    <!-- <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/appmis?useUnicode=true&amp;characterEncoding=utf-8&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC" />-->
+          <property name="jdbcDriver" value="com.mysql.jdbc.Driver" />
+          <property name="jdbcUsername" value="root" />
+          <property name="jdbcPassword" value="15309923872" />
+
+          <property name="databaseSchemaUpdate" value="true" />
+        <!-- <property name="databaseSchemaUpdate" value="create" />-->
+        <!--false（默认）：检查数据库表的版本和依赖库的版本， 如果版本不匹配就抛出异常。
+         true: 构建流程引擎时，执行检查，如果需要就执行更新。 如果表不存在，就创建。
+         create-drop: 构建流程引擎时创建数据库表， 关闭流程引擎时删除这些表。
+         drop-create：先删除表再创建表。
+          create: 构建流程引擎时创建数据库表， 关闭流程引擎时不删除这些表。-->
+         <property name="asyncExecutorActivate" value="false" />
+
+         <property name="mailServerHost" value="mail.my-corp.com" />
+         <property name="mailServerPort" value="5025" />
+         <property name="history" value="full"/>
+     </bean>
+     </beans>
